@@ -2,7 +2,7 @@ import face_recognition
 import numpy as np
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
-from models.knownface import KnownFace
+from src.models.knownface import KnownFace
 import cv2
 
 async def recognize_face(image_bytes: bytes, db: AsyncSession):
