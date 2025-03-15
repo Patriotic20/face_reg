@@ -1,0 +1,1 @@
+from .knownface import KnownFace
